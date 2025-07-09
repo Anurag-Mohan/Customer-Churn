@@ -9,6 +9,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import seaborn as sns
 from datetime import datetime
+import pathlib
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
@@ -85,14 +86,16 @@ st.markdown("""
 
 @st.cache_resource
 def load_models():
+    base_path = pathlib.Path(__file__).parent  # path to Churn_Prediction/
     try:
-        model = joblib.load("model.pkl")
-        scaler = joblib.load("scaler.pkl")
-        feature_names = joblib.load("feature_names.pkl")
+        model = joblib.load(base_path / "model.pkl")
+        scaler = joblib.load(base_path / "scaler.pkl")
+        feature_names = joblib.load(base_path / "feature_names.pkl")
         return model, scaler, feature_names
-    except FileNotFoundError:
-        st.error("⚠️ Model files not found. Please ensure model.pkl, scaler.pkl, and feature_names.pkl are in the same directory.")
+    except FileNotFoundError as e:
+        st.error(f"⚠️ Model file not found: {e}")
         return None, None, None
+
 
 model, scaler, feature_names = load_models()
 
