@@ -135,29 +135,6 @@ Data-driven recommendations for retention
 
 </div>
 
-### 🔧 **Installation**
-
-```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/yourusername/customer-churn-prediction.git
-cd customer-churn-prediction
-
-# 2️⃣ Create virtual environment (recommended)
-python -m venv churn_env
-source churn_env/bin/activate  # On Windows: churn_env\Scripts\activate
-
-# 3️⃣ Install dependencies
-pip install -r requirements.txt
-
-# 4️⃣ Prepare model files
-# Ensure these files are in your project directory:
-# ├── model.pkl
-# ├── scaler.pkl
-# └── feature_names.pkl
-
-# 5️⃣ Launch the application
-streamlit run app.py
-```
 
 ### 🌐 **Access the Platform**
 
@@ -423,13 +400,13 @@ Apply the AI-generated retention strategies to maximize customer lifetime value
 
 ```python
 # Replace with your trained model
-model = joblib.load("your_custom_model.pkl")
+model = joblib.load("model.pkl")
 
 # Update feature scaler
-scaler = joblib.load("your_scaler.pkl")
+scaler = joblib.load("scaler.pkl")
 
 # Modify feature set
-features = joblib.load("your_features.pkl")
+features_names = joblib.load("feature_names.pkl")
 ```
 
 </details>
