@@ -81,7 +81,7 @@ Data-driven recommendations for retention
 ### 🏠 **Dashboard Overview**
 *The heart of customer intelligence*
 
-<img src="screenshots/main_dashboard.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="assetss/Screenshot 2025-07-09 114609.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
 ---
 
@@ -90,17 +90,15 @@ Data-driven recommendations for retention
 ### 🎯 **Prediction Results**
 *Comprehensive risk assessment with visual indicators*
 
-<img src="screenshots/prediction_results.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
-
-
-<img src="screenshots/feature_importance.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="assets/Screenshot 2025-07-09 114655.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="assets/Screenshot 2025-07-09 114740.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
 ---
 
 ### 💡 **Strategic Recommendations**
 *AI-powered retention strategies*
 
-<img src="screenshots/recommendations.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="assets/Screenshot 2025-07-09 121030.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
 </div>
 
