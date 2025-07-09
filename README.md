@@ -81,7 +81,7 @@ Data-driven recommendations for retention
 ### 🏠 **Dashboard Overview**
 *The heart of customer intelligence*
 
-<img src="assetss/Screenshot 2025-07-09 114609.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
+<img src="assets/Screenshot 2025-07-09 114609.png" width="80%" style="border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);" />
 
 ---
 
